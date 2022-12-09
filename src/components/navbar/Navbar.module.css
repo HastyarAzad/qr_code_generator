@@ -1,0 +1,46 @@
+.navbar{
+  background-color: rgb(30, 152, 201);
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  overflow: hidden;
+  /* border: 5px solid black; */
+}
+
+.title{
+  padding-top: 10px;
+  font-size: 50px;
+  color: rgb(255, 204, 0);
+  align-self: flex-start;
+  margin-right: 100px;
+}
+
+.tabs{
+  align-self: flex-end;
+}
+
+.button{
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  padding-top: 10px;
+  /* margin-right: 10px; */
+  margin-left:10px;
+  font-size: 25px;
+  color: white;
+  background-color:  #324960;
+  border-radius:10px 10px 0px 0px;
+  align-self: flex-start;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.button:hover{
+  background-color: rgb(233, 67, 67);
+}
+
+.selected_tab{
+  background-color: rgb(235, 72, 99);
+}
